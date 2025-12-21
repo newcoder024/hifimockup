@@ -114,10 +114,20 @@ body{
 .btn-bg{
     background-color: #1c1c1c;
     padding: 1px 2px 2px 1px;
-    margin: 10px;
+    margin: 10px 10px 0px;
     box-shadow: inset 1.5px 1px 1px  #ffffff85;
     filter: drop-shadow(1.5px 1px 1px #d4d4d4);
-
+}
+.btn-bg2{
+    background-color: #e7e2df;
+    height: 30px;
+    padding: 1px 2px 2px 1px;
+    margin: 0px 10px 10px;
+    box-shadow: inset 1.5px 1px 1px  #ffffff2f, inset -1px -1px 1px #00000033;
+    filter: drop-shadow(1.5px 1px 1px #d4d4d4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .slider{
