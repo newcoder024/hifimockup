@@ -8,12 +8,12 @@
 
 body{
     height: 100vh;
-    background-color: #a5a5a5;
+    background-color: #454545;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .row{
-    margin-top: 100px;
+    /* margin-top: 100px; */
     display: flex;
     justify-content: center;
     align-items: center;    
@@ -24,9 +24,11 @@ body{
     height: 60px;
     margin: 1px;
     display: flex;
-    justify-content: center;
-    align-items: center;    
+    /* justify-content: center; */
+    /* align-items: center;     */
     border-radius: 7px;
+    padding: 7px;
+    font-size: 20px;
 
     filter: drop-shadow(6px 6px 7px #000000b1);
     box-shadow: inset 1.5px 1px 1px  #ffffff85, inset -1px -2px 1px #00000047;
@@ -110,11 +112,16 @@ body{
     background-color: #f82f1d;
     color: white;
 }
+.orange{
+    background-color: #f8781d;
+    color: white;
+
+}
 
 .btn-bg{
     background-color: #1c1c1c;
     padding: 1px 2px 2px 1px;
-    margin: 10px 10px 0px;
+    margin: 18px 5px 0px;
     box-shadow: inset 1.5px 1px 1px  #ffffff85;
     filter: drop-shadow(1.5px 1px 1px #d4d4d4);
 }
@@ -154,4 +161,28 @@ body{
     cursor: pointer;
     filter: drop-shadow(6px 6px 7px #000000);
     box-shadow: inset 1px 1px 1px  #ffffff85, inset -1px -2px 1px #00000047;
+}
+
+.calculator{
+    width: 325px;
+    height: 550px;
+    background-color: #a5a5a5;
+    /* border: 1px solid black; */
+    margin: 20px auto;
+    border-radius: 5px;
+}
+#window{
+    width: 100%;
+    background-color: white;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 35px;
+    text-align: right;
+
+}
+
+#result{
+    font-size: 20px;
+    color: grey;
 }

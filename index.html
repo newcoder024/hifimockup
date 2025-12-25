@@ -8,7 +8,7 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <div class="row">
+    <!-- <div class="row">
         <div class="btn-bg">
             <div class="button black">A</div>
         </div>
@@ -74,6 +74,86 @@
 
     <div class="slider-div">
         <input type="range" class="slider" min="0" max="100" value="50">
+    </div> -->
+
+    <div class="calculator">
+        <div id="window">
+            <p id="result"></p>
+            <p id="windowval">0</p>
+        </div>
+        <div class="buttons">
+            <div class="row">
+                <div class="btn-bg">
+                    <div class="button grey" onclick="clearSom()">C</div>
+                </div>
+                <div class="btn-bg">
+                    <div class="button grey"></div>
+                </div>
+                <div class="btn-bg">
+                    <div class="button grey" onclick="getnumber('%')">%</div>
+                </div>
+                <div class="btn-bg">
+                    <div class="button white" onclick="getNumber('/')">÷</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="btn-bg">
+                    <div class="button black" onclick="getNumber(7)">7</div>
+                </div>
+                <div class="btn-bg">
+                    <div class="button black" onclick="getNumber(8)">8</div>
+                </div>
+                <div class="btn-bg">
+                    <div class="button black" onclick="getNumber(9)">9</div>
+                </div>
+                <div class="btn-bg">
+                    <div class="button white" onclick="getNumber('*')">×</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="btn-bg">
+                    <div class="button black" onclick="getNumber(4)">4</div>
+                </div>
+                <div class="btn-bg">
+                    <div class="button black" onclick="getNumber(5)">5</div>
+                </div>
+                <div class="btn-bg">
+                    <div class="button black" onclick="getNumber(6)">6</div>
+                </div>
+                <div class="btn-bg">
+                    <div class="button white" onclick="getNumber('-')">-</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="btn-bg">
+                    <div class="button black" onclick="getNumber(1)">1</div>
+                </div>
+                <div class="btn-bg">
+                    <div class="button black" onclick="getNumber(2)">2</div>
+                </div>
+                <div class="btn-bg">
+                    <div class="button black" onclick="getNumber(3)">3</div>
+                </div>
+                <div class="btn-bg">
+                    <div class="button white" onclick="getNumber('+')">+</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="btn-bg">
+                    <div class="button black" onclick="getNumber(0)">0</div>
+                </div>
+                <div class="btn-bg">
+                    <div class="button black" onclick="getNumber('.')">,</div>
+                </div>
+                <div class="btn-bg">
+                    <div class="button black" onclick="getNumber('.')">.</div>
+                </div>
+                <div class="btn-bg">
+                    <div class="button red" onclick="calculate()">=</div>
+                </div>
+            </div>
+            
+        </div>
     </div>
 
 </body>
