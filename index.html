@@ -79,18 +79,18 @@
     <div class="calculator">
         <div id="window">
             <p id="result"></p>
-            <p id="windowval">0</p>
+            <p id="windowval"></p>
         </div>
         <div class="buttons">
             <div class="row">
                 <div class="btn-bg">
-                    <div class="button grey" onclick="clearSom()">C</div>
+                     <div class="button grey" onclick="clearSom()">AC</div>
                 </div>
                 <div class="btn-bg">
-                    <div class="button grey"></div>
+                     <div class="button grey" onclick="deleteNum()">⌫</div>
                 </div>
                 <div class="btn-bg">
-                    <div class="button grey" onclick="getnumber('%')">%</div>
+                    <div class="button grey" onclick="getNumber('%')">%</div>
                 </div>
                 <div class="btn-bg">
                     <div class="button white" onclick="getNumber('/')">÷</div>
@@ -140,16 +140,16 @@
             </div>
             <div class="row">
                 <div class="btn-bg">
-                    <div class="button black" onclick="getNumber(0)">0</div>
-                </div>
-                <div class="btn-bg">
-                    <div class="button black" onclick="getNumber('.')">,</div>
-                </div>
-                <div class="btn-bg">
                     <div class="button black" onclick="getNumber('.')">.</div>
                 </div>
                 <div class="btn-bg">
-                    <div class="button red" onclick="calculate()">=</div>
+                    <div class="button black" onclick="getNumber('0')">0</div>
+                </div>
+                <!-- <div class="btn-bg">
+                    <div class="button black" onclick="getNumber('.')">.</div>
+                </div> -->
+                <div class="btn-bg">
+                    <div class="button red" style="width: 136px;" onclick="calculate()">=</div>
                 </div>
             </div>
             
